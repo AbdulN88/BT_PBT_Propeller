@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PBT_Propellor</Name>
+    <ProjectGuid>67b7cd5c-d5fb-46fe-864d-e46970a3e732</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>PBT Propellor</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\1465361590_facebook_circle_black.png" />
+    <Content Include="Content\1465361610_twitter_circle_black.png" />
+    <Content Include="Content\1465361627_instagram_circle_black.png" />
+    <Content Include="Content\arrows-overlay.f5080ee8.png" />
+    <Content Include="Content\background-foot.8e079a50.jpg" />
+    <Content Include="Content\headbackground.jpg" />
+    <Content Include="Content\Index.css" />
+    <Content Include="Content\Index.min.css" />
+    <Content Include="Content\insta-1.eae63054.jpg" />
+    <Content Include="Content\insta-2.d3e29ba2.jpg" />
+    <Content Include="Content\PBTLogo.png" />
+    <Content Include="Content\Prop-Carousel.css" />
+    <Content Include="Content\slide-1.7ceb020c.jpg" />
+    <Content Include="Content\tile-eatery1.24281a2a.jpg" />
+    <Content Include="Content\tile-eatery2.ea9bfc86.jpg" />
+    <Content Include="Content\tile-eatery3.446e81e3.jpg" />
+    <Content Include="Content\tile-eatery4.62aa0b73.jpg" />
+    <Content Include="index.js" />
+    <Content Include="jquery-2.2.4.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+  </ItemGroup>
+</Project>

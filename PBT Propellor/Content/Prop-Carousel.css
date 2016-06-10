@@ -1,0 +1,54 @@
+﻿body {
+}
+/*------------------------------------*\
+    $CAROUSEL
+\*------------------------------------*/
+.carousel{
+    overflow:hidden;
+    width:72.25%;
+    position:absolute;
+    top: 57.5em;
+    left: 10em;
+    padding-bottom:0;
+}
+.panes{
+    list-style:none;
+    position:relative;
+    width:500%; /* Number of panes * 100% */
+    overflow:hidden; /* This is used solely to clear floats, it does not add functionality. */
+        
+    -moz-animation:carousel 30s infinite;
+    -webkit-animation:carousel 30s infinite;
+    animation:carousel 30s infinite;
+}
+.panes > li{
+    position:relative;
+    float:left;
+    width:20%; /* 100 / number of panes */
+}
+.carousel img{
+    display:block;
+    width:100%;
+    max-width:100%;
+}
+
+@keyframes carousel{
+     0%{
+       transition:none;
+  }
+  10.5% {
+    transition:ease-out
+  }
+  12.5%{
+    transition:none
+  }
+  30% {
+    transition:ease-in-out;
+  }
+  40% {
+     transition:ease-in
+  }
+  100% {
+    transition:none;
+  }
+}
