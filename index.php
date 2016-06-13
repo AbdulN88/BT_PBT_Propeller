@@ -168,7 +168,7 @@
                                 <div class="form-field3">
                                     <label class="lbldob" for="dob">DOB</label>
                                     <label class="lbldivdob">|</label>
-                                    <select name="select" selected>
+                                    <select name="select" class="datesel" selected>
                                         <option selected disabled class="hiddenoption">DD</option>
                                         <option>1</option>
                                         <option>2</option>
@@ -176,7 +176,7 @@
                                         <option>4</option>
                                         <option>5</option>
                                     </select>
-                                    <select name="select">
+                                    <select name="select2" class="mntsel">
                                         <option selected disabled class="hiddenoption">MM</option>
                                         <option>1</option>
                                         <option>2</option>
@@ -184,7 +184,7 @@
                                         <option>4</option>
                                         <option>5</option>
                                     </select>
-                                    <select name="select">
+                                    <select name="select3" class="yrsel">
                                         <option selected disabled class="hiddenoption">YY</option>
                                         <option>1</option>
                                         <option>2</option>
