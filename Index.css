@@ -1,7 +1,11 @@
-﻿body
+body
 {
  background-color:black;
 }
+
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
 #mainHeader {
     background-position: center;
     background-size:cover;
@@ -58,7 +62,7 @@ ul.centralNav li.icon {display: none;}
 }
 
 @media screen and (max-width:680px) {
-  ul.centralNav.responsive {position: relative;}
+  ul.centralNav.responsive {position:absolute;}
   ul.centralNav.responsive li.icon {
     position: absolute;
     right: 0;
@@ -88,6 +92,10 @@ ul.centralNav li.icon {display: none;}
 .menu li:hover{
     opacity: 0.7;
 }
+
+/*------------------------------------*\
+    Body Content
+\*------------------------------------*/
 .content {
     background-color:white;
      margin: 0;
@@ -200,6 +208,10 @@ h1 {
     padding-top: 0;
     color:white;
 }
+
+ /*------------------------------------*\
+    Footer
+\*------------------------------------*/
 #FooterPanel {
     background-image:url("background-foot.8e079a50.jpg");
     background-position: center;
@@ -322,38 +334,42 @@ h2.column-title2 {
 }
 #column3 {
     display:block;
+    position: absolute;
+    top: 6em;
+    margin-left: 12.5%;
 }
 h2.column-title3 {
     text-align: center;
     text-transform:uppercase;
     border-bottom:2px solid #fff;
-    position: relative;
-    bottom:13.99em;
+    position: absolute;
+    top:52.4em;
     color:white;
-    width: 20%;
-    margin-left:64.5%;
+    width: 85%;
+    margin-left:228%;
 }
 .column-intro3 {
     color: #fff;
     font-size:large;
-    position: relative;
-    bottom: 19.5em;
-    margin-left:65%;
+    position: absolute;
+    top: 72em;
+    width:95%;
+    margin-left:228%;
 }
 .form-field1 .lblnme {
      font-size: x-large;
     text-transform:uppercase;
-    position:relative;
-    margin-left: 65%;
-    bottom: 14.5em;
+    position:absolute;
+    margin-left: 227.5%;
+    top: 57em;
     color: #fff;
 }
 .lbldivnme {
      font-size: x-large;
     text-transform:uppercase;
-    position:relative;
-    margin-left: 71%;
-    bottom: 15.7em;
+    position:absolute;
+    margin-left: 250%;
+    top:57em;
     color: #fff;
 }
 .name {
@@ -361,29 +377,29 @@ h2.column-title3 {
     font-size: x-large;
     text-transform:uppercase;
     border-radius: 5px;
-    position:relative;
-    margin-left: 72%;
-    bottom:16.9em;
+    position:absolute;
+    margin-left: 253%;
+    top:57em;
     color: #fff;
     height:auto;
-    width:15%;
+    width:60%;
     background-color:transparent;
 }
 
 .form-field2 .lblmail {
-     font-size: x-large;
+    font-size: x-large;
     text-transform:uppercase;
-    position:relative;
-    margin-left: 65%;
-    bottom: 16em;
+    position:absolute;
+    margin-left: 226%;
+    top: 59em;
     color: #fff;
 }
 .lbldivmail {
-     font-size: x-large;
+    font-size: x-large;
     text-transform:uppercase;
     position:relative;
-    margin-left: 71%;
-    bottom: 17.2em;
+    margin-left: 250%;
+    top: 59em;
     color: #fff;
 }
 .email {
@@ -392,44 +408,75 @@ h2.column-title3 {
     text-transform:uppercase;
     border-radius: 5px;
     position:relative;
-    margin-left: 72%;
-    bottom:18.35em;
+    margin-left: 253%;
+    top: 57.8em;
     color: #fff;
     height:auto;
-    width:15%;
+    width:60%;
     background-color:transparent;
 }
 .form-field3 .lbldob {
-     font-size: x-large;
+    font-size: x-large;
     text-transform:uppercase;
     position:relative;
-    margin-left: 65%;
-    bottom: 17.4em;
+    margin-left: 225%;
+    top: 58.5em;
     color: #fff;
 }
 .lbldivdob {
-     font-size: x-large;
+    font-size: x-large;
     text-transform:uppercase;
-    position:relative;
-    margin-left: 71%;
-    bottom: 18.6em;
+    position:absolute;
+    margin-left: 250%;
+    top: 60.9em;
     color: #fff;
 }
-select {
+.datesel {
     border: 1px solid #fff;
     font-size: x-large;
     text-transform:uppercase;
     border-radius: 5px;
-    position:relative;
-    margin-left: 72.1%;
-    bottom:18.7em;
+    position:absolute;
+    margin-left: 253%;
+    top:60.9em;
     color: #fff;
     height:auto;
-    width:5%;
+    width:20%;
     background-color:transparent;
     vertical-align:middle;
-    display:inline-block;
-    margin:0;
+    display:inline;
+    overflow:hidden;
+}
+.mntsel {
+    border: 1px solid #fff;
+    font-size: x-large;
+    text-transform:uppercase;
+    border-radius: 5px;
+    position:absolute;
+    margin-left: 274%;
+    top:60.9em;
+    color: #fff;
+    height:auto;
+    width:20%;
+    background-color:transparent;
+    vertical-align:middle;
+    display:inline;
+    overflow:hidden;
+}
+.yrsel {
+    border: 1px solid #fff;
+    font-size: x-large;
+    text-transform:uppercase;
+    border-radius: 5px;
+    position:absolute;
+    margin-left: 295.5%;
+    top:60.9em;
+    color: #fff;
+    height:auto;
+    width:20%;
+    background-color:transparent;
+    vertical-align:middle;
+    display:inline;
     overflow:hidden;
 }
 .formsub {
@@ -437,12 +484,12 @@ select {
     font-size: x-large;
     text-transform:uppercase;
     border-radius: 5px;
-    position:relative;
-    margin-left: 70%;
-    bottom:18em;
+    position:absolute;
+    margin-left: 260%;
+    top:62.7em;
     color: #fff;
     height:auto;
-    width:15%;
+    width:45%;
     background-color:transparent;
 }
 .formsub:hover {
@@ -458,7 +505,7 @@ select {
     bottom:1em;
     color: #fff;
     height:auto;
-    width:100%;
+    width:80%;
 }
 #footer-menu li {
     list-style:none !important;
